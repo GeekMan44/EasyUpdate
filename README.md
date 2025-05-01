@@ -34,3 +34,26 @@ EasyUpdate = UpdateManager(
 EasyUpdate.search_update()
 EasyUpdate.download_update(True)
 ```
+
+### 3. Make versions file
+
+- Use our tool to generate the file for you
+
+```json
+{
+    "latest": {
+        "version": "1.3.4",
+        "endpoint": "https://raw.githubusercontent.com/GeekMan44/EasyUpdate/refs/heads/main/",
+        "files": [
+            {
+                "file": "LICENSE",
+                "folder": ""
+            },
+            {
+                "file": "versions",
+                "folder": "version"
+            }
+        ]
+    }
+}
+```
