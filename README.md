@@ -1,6 +1,6 @@
 # EasyUpdate
 
-🛠️ A small Python module to automatically update your script when a new version is released. Allows compilation to `.exe` and Linux executables.
+🛠️ A lightweight Python module to automatically update your script when a new version is released. Allows compilation to `.exe` and Linux executables.
 
 ## 📦 Features
 
