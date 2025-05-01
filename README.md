@@ -17,7 +17,7 @@
 ### 1. Install the module with pip
 
 ```bash
-pip install EasyUpdate
+pip install EasyUpdate (soon)
 ```
 ### 2. Import the module in your project
 
@@ -37,7 +37,7 @@ EasyUpdate.download_update(True)
 
 ### 3. Make versions file
 
-- Use our tool to generate the file for you
+- Use our tool to generate the file for you (soon)
 
 ```json
 {
@@ -50,10 +50,16 @@ EasyUpdate.download_update(True)
                 "folder": ""
             },
             {
-                "file": "EasyUpdate/core.py",
-                "folder": "EasyUpdate"
+                "file": "versions",
+                "folder": "version"
             }
         ]
     }
 }
 ```
+
+## 🕒 Soon
+
+- Tool to generate file `versions`
+- Upload module on PyPi
+- Make a web documentation
