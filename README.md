@@ -50,8 +50,8 @@ EasyUpdate.download_update(True)
                 "folder": ""
             },
             {
-                "file": "versions",
-                "folder": "version"
+                "file": "EasyUpdate/core.py",
+                "folder": "EasyUpdate"
             }
         ]
     }
