@@ -28,7 +28,7 @@ version = "1.2.0"
 EasyUpdate = UpdateManager(
     version_file=version,
     version_url="https://url_to_versions_file/",
-    updater_name="update.exe" # Name of the updater if compiled in .exe
+    updater_name="update.exe" # Name of the updater if compiled in .exe or linux executable
 )
 
 EasyUpdate.search_update()
@@ -61,5 +61,4 @@ EasyUpdate.download_update(True)
 ## 🕒 Soon
 
 - Tool to generate file `versions`
-- Upload module on PyPi
 - Make a web documentation
