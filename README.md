@@ -17,7 +17,7 @@
 ### 1. Install the module with pip
 
 ```bash
-pip install EasyUpdate (soon)
+pip install easyupdate
 ```
 ### 2. Import the module in your project
 
