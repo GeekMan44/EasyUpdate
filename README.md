@@ -22,7 +22,7 @@ pip install easyupdate
 ### 2. Import the module in your project
 
 ```py
-from EasyUpdate import UpdateManager
+from easyupdate import UpdateManager
 
 version = "1.2.0"
 EasyUpdate = UpdateManager(
